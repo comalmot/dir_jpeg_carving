@@ -72,3 +72,5 @@ if __name__=='__main__':
             f.close()
             print("{} is JPEG File.",format(tag))
             print("[+] Carving Success!")
+        else:
+            pass
