@@ -48,6 +48,8 @@ def check_file(binary_data, filename):
     if result:
         print("Signature Check Success!")
         return 1
+    else:
+        return 0
 
 def return_jpeg_filelist(path):
     file_list = os.listdir(path)
